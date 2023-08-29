@@ -7,12 +7,13 @@ As e-commerce has become become increasingly normalized as a predominant way for
 
 ## Usage
 
+When the user enters there database name, MySql username, and MySql password into a .env file the database is then connected using Sequalize.  When the user enters the schema and seeds commands the database is created and seeded with test data.  When the command to start the application is entered the server is started and the Sequelize models are synced to the MySQL database.  When the user opens API GET routes in Insomnia for categories, products, or tags
+the data for each of these routes is displayed in a formatted JSON.  When the user tests API POST, PUT, and DELETE routes in Insomnia
+They are able to successfully create, update, and delete data in their database.  Functionality displayed in the walkthrough video below.
 
 Walkthrough Video: 
 
 Github Repository: https://github.com/KKurzawa/C13-E-Commerce-Back-End
-
-
 
 ## Credits
 

@@ -11,7 +11,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(routes);
 
-// true drops databse when server.js runs, false doesn't
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
 });
