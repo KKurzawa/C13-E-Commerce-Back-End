@@ -11,7 +11,7 @@ When the user enters there database name, MySql username, and MySql password int
 the data for each of these routes is displayed in a formatted JSON.  When the user tests API POST, PUT, and DELETE routes in Insomnia
 They are able to successfully create, update, and delete data in their database.  Functionality displayed in the walkthrough video below.
 
-Walkthrough Video: 
+Walkthrough Video: https://watch.screencastify.com/v/2GKDPnPcTY3VCKO1LVsj
 
 Github Repository: https://github.com/KKurzawa/C13-E-Commerce-Back-End
 
